@@ -1,0 +1,80 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.navbar-collapse{
+    font-size : 18px;
+}
+
+.navbar-collapse a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 10px;
+    margin: 5px;
+    background-color: cyan;
+}
+
+.container {
+    position: relative;
+}
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    left: 700px;
+    width: 550px;
+    height: 300px   ;
+    z-index: 1; /* Ensure it appears above the background image */
+    opacity: 0.3; /* Adjust opacity as needed */
+}
+
+.overlay-img2{
+    position: absolute;
+    bottom: 0;
+    right: 800px;
+    width: 400px;
+    height: 300px   ;
+    z-index: 1; /* Ensure it appears above the background image */
+    opacity: 0.3; /* Adjust opacity as needed */
+}
